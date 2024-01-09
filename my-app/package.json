@@ -9,16 +9,25 @@
     "lint": "next lint"
   },
   "dependencies": {
+    "next": "14.0.4",
     "react": "^18",
     "react-dom": "^18",
-    "next": "14.0.4"
+    "rete": "^2.0.2",
+    "rete-area-plugin": "^2.0.1",
+    "rete-auto-arrange-plugin": "^2.0.0",
+    "rete-connection-plugin": "^2.0.0",
+    "rete-context-menu-plugin": "^2.0.0",
+    "rete-engine": "^2.0.0",
+    "rete-react-plugin": "^2.0.4",
+    "rete-render-utils": "^2.0.1",
+    "styled-components": "^6.1.6"
   },
   "devDependencies": {
-    "typescript": "^5",
     "@types/node": "^20",
     "@types/react": "^18",
     "@types/react-dom": "^18",
     "eslint": "^8",
-    "eslint-config-next": "14.0.4"
+    "eslint-config-next": "14.0.4",
+    "typescript": "^5"
   }
 }

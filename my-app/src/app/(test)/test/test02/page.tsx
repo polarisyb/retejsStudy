@@ -1,7 +1,7 @@
 "use client";
 
 import React from 'react'
-import { createEditor } from './createEditor';
+import { createEditor } from './dataFlow';
 import { useRete } from "rete-react-plugin";
 
 const Page = () => {
@@ -9,7 +9,7 @@ const Page = () => {
 
   return (
     <>
-      <div ref={ref} style={{ height: "100vh", width: "100vw" }}></div>    
+      <div ref={ref} style={{ height: "100vh", width: "100vw" }}></div>
     </>
   );
 };
